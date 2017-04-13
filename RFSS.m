@@ -1,4 +1,4 @@
-function [mae,rmse,alpha,beta,x,y,rho_alpha,rho_beta,pr_alpha,dr_alpha] = RFSS(R,test_set,d,lambda,mu,iteration)
+function [mae,rmse] = RFSS(R,test_set,d,lambda,mu,iteration)
 %R: users x items matrix
 %test_set: test data [userid,itemid,rating]
 %k: the dimension used in singular value decomposition
