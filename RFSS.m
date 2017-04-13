@@ -11,7 +11,7 @@ function [mae,rmse,alpha,beta,x,y,rho_alpha,rho_beta,pr_alpha,dr_alpha] = RFSS(R
 
 %the range of rating
 rmin = 0;
-rmax = 5;
+rmax = 20;
 rho = 1;
 
 
